@@ -1,0 +1,28 @@
+<html>
+<!-- 
+  <link rel="stylesheet" href="./style.css"> 
+  <script src="index.js">
+-->
+<head>
+	<title>If Pigs Could Fly Demo</title>
+</head>
+
+<body onload="draw(0)">
+	<canvas width="800px" height="500px">Oops unsupported</canvas>
+	<p>
+		<button onclick="eagle.fly()">eagle.fly()</button>
+		<button onclick="eagle.freeze()">eagle.freeze()</button>
+		<br>
+		<button onclick="pig.walk()">pig.walk()</button>
+		<button onclick="pig.freeze()">pig.freeze()</button>
+		<button onclick="pig.fly()">pig.fly()</button>
+		<button onclick="pig.__proto__ = eagle.__proto__">Transmogrify</button>
+		<button onclick="console.log(pig)">About pig</button>
+
+		<p>
+			<a target="_new" href="https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b">About
+				transmogrification</a>
+		</p>
+</body>
+
+</html>
